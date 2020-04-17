@@ -1,4 +1,4 @@
-var NES = NES || {};
+var NES = CMS || {};
 
 // Class for reading and parsing ROMs in iNES format.
 /*
@@ -26,7 +26,7 @@ var NES = NES || {};
 0Fh  Nonzero if [07h..0Fh]=GARBAGE, if so, assume [07h..0Fh]=ALL ZERO (*)
 */
 
-NES.Cartridge = function(ROMData)
+CMS.Cartridge = function(ROMData)
 {
 	var Self = this;
 
