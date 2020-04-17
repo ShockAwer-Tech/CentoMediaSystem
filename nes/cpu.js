@@ -1,10 +1,10 @@
-var NES = NES || {};
+var NES = CMS || {};
 
 // Callbacks, object with:
 //		ReadByte: function(Address).
 //		WriteByte: function(Address, Value).
 //		RaiseInterrupt: function(InterruptType).
-NES.CPU = function(Callbacks)
+CMS.CPU = function(Callbacks)
 {
 	var Self = this;
 	var PC; // Program counter.
